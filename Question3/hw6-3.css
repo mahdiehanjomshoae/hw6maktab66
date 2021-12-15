@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+.boody{
+    border-top: 15px solid #f1f1f1 ;
+    background-color:#f1f1f1 !important;
+}
+.heder h1 , p{
+    text-align: center;
+    margin: 20px;
+}
+p .m{
+background-color: black;
+color: white;
+padding: 5px;
+}
+/* کل */
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+/* چپ */
+.box-left{
+    width: 56%;
+}
+.box1 {
+    background-color: white;
+    width: 100%;
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 10px 10px 12px -7px #666;
+}
+.box1 .box-img img{
+    width: 100%;
+
+} 
+.box-txte p ,h3,h5{
+    text-align: left;
+}
+h3,h5{
+    margin-left: 21px;
+    margin-top: 15px;
+}
+.box-txte .mounth{
+    color: #a5a5a5;
+}
+.box-booten{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-booten .number{
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    
+}
+
+.box-booten  .number2{
+    border-radius: 100%;
+}
+button {
+    border: 1px solid black;
+    margin-bottom: 18px;
+    margin-left: 21px;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.button:hover{
+    background-color: #b1aeae;
+    
+}
+
+/* راست */
+.box-right{
+width: 30%;
+}
+.box2 {
+    background-color: white ;
+    width: 100%;
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 10px 10px 12px -7px #666;
+
+}
+.box-txte2 p{
+    text-align: left;
+
+}
+.box2 .box-img img{
+    width: 100%;
+} 
+/* دومی */
+.box2 .popular h4{
+    background-color: #e5e2e2;
+    padding: 19px;
+    font-size: large;
+}
+.box2 ul li{
+list-style-type: none;
+padding: 15px 15px;
+border-bottom: 1px solid #ddd;
+background-color: white;
+}
+.box2 ul li img{
+    width: 47px;  
+}
+.menu {
+    float: left;
+    margin-right: 16px;
+}
+.box2 ul li a{
+    color: black;
+    text-decoration: none;
+}
+.box2 .hoover :hover{
+    background-color: #b4b1b1;
+}
+
+/* سومی */
+.box2 .tag h4{
+    background-color: #e5e2e2;
+    padding: 19px;
+    font-size: large;
+}
+.tagss {
+   background-color: white; 
+}
+.tagss p{
+    background-color: white;
+    text-align: left;
+
+}
+.tags{
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+.tagss .travel{
+    background-color: black;
+    color: white;
+}
+/* پایین */
+.footer{
+    background-color: #616161;
+    height: 130px;
+    width: 100%;
+}
+.footer .next{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding-left: 33px;
+    padding-right: 33px;
+
+}
+.butto0n{
+    margin-left: 3px;
+    margin-top: 16px!important;
+
+}
+.next {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 12px 24px!important;
+    cursor:pointer;
+
+}
+
+.next:hover{
+    background-color: #8a8888;
+}
+
+.previous{
+    border: 1px solid #494949;
+    background-color: #494949;
+    color: #a8a8a8;
+    margin-top: 20px;
+    padding: 12px 24px!important;
+    margin-left: 20px;
+    cursor:no-drop;
+
+}
+.previous:hover{
+    background-color:#726f6f ;
+}
+
+.footer p{
+    text-align: left;
+    background-color: #616161;
+    color: white;
+   margin-top: 1px;
+}
+.footer p a{
+    background-color: #616161;
+    color: white;
+    list-style-type: none;
+}
+@media screen and (max-width: 480px) {
+    .heder{
+        display: block !important;
+      }
+      .box-left ,.box-right{
+        display: block !important;
+        
+      }
+      .box1,.box2{
+        display: block !important;
+        
+      }
+      .box-txte ,.box-img, .box-booten{
+        width: 100% !important;
+      }
+     .box-img ,.popular, .hoover, .tag, .tags{
+        width: 100% !important;
+     }
+      
+  }
